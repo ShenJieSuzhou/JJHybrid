@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01955A3D534F906129040D8F805597F8 /* RXRConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E36366B7AC04C950E03D5398A72011E7 /* RXRConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		076AD8C5E3E56D79F5F63AAF16584E08 /* RXRRouteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79086647AD6F5F0A732B747465AFB7AC /* RXRRouteManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C1379B7529ED900A1C31D8F7E6B8B98 /* RXRRequestInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F31E62CD5917CB32668E74DCB2E1CF /* RXRRequestInterceptor.m */; };
+		0E1AF952E791E5952AE8FBE4A899B42C /* RXRNSURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5983492A5390D9421601DAC457C232CA /* RXRNSURLProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E887E7B1CD64E31A643EB7A11185B74 /* RXRPullRefreshWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4399B5E2FC8FD51E5EEDA13817BC93 /* RXRPullRefreshWidget.m */; };
+		10891F9C44D30E7A3189A3B63B5DB370 /* RXRNSURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3991A6D2B88773986D8F62996FE49C /* RXRNSURLProtocol.m */; };
+		14B4C9CAA1D3519514D4646D7E46C1A5 /* RXRNavTitleWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EB57C2DB5779D4605DD5BD8E1E286D /* RXRNavTitleWidget.m */; };
+		168F1D75AA95505CEA7151C15FC4D2DD /* RXRRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F39B9448597A118DAB4F2800F72E42 /* RXRRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		214B46E5291E753ECE998E108DB2BA03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		24C17DAE28A606BB099F268223D78A3B /* RXRRequestInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5A8E4CCC24327F8DDB2997CAE13E99 /* RXRRequestInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		284B0A26744EDE3114A25C5EE07408F7 /* RXRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD14F2A98D49F8BFCBDEFA07A8B052 /* RXRViewController.m */; };
+		2AF218D3FCE50676950443AB591DCB50 /* RXRRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE55F5F00BC28629B145E73C1DFDBB5 /* RXRRouteManager.m */; };
+		2D15CC98D7040ADDDE1D69A5D7EC426A /* UIColor+Rexxar.h in Headers */ = {isa = PBXBuildFile; fileRef = DCAEA99194724795139F86573A70BD90 /* UIColor+Rexxar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EBADCA37FCA995EF8C7B72AD65EB93D /* RXRCacheFileInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D5FA05DA5A3CF686CAE3E5F84CCCF4 /* RXRCacheFileInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2ECCC96C86003B7F2C754477DEFB9DE8 /* RXRAlertDialogWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A02EBF37480A559C096CADC0CCA0D13 /* RXRAlertDialogWidget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3416ABE7EE87DC7C7BAD779974401DE6 /* RXRContainerInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E58956742DFD353D12FC68612A1A23 /* RXRContainerInterceptor.m */; };
+		3B873939E06BD0C6A74B118C48E770AB /* RXRAlertDialogWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = 0901FE63E7B6CAEA63DD9EA17C6B0018 /* RXRAlertDialogWidget.m */; };
+		3E7B095B4412DFD2193B1E93F6D08DF0 /* RXRRequestDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5D192B2A667F2D8727F96200C9F206 /* RXRRequestDecorator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F002BB8476239DAD3F6B304BBD03BFA /* NSString+RXRURLEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = 407013F2AAE47301528FCC2A67610865 /* NSString+RXRURLEscape.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44D2CF18469CDF6A56EDB9BF377E5149 /* Rexxar.h in Headers */ = {isa = PBXBuildFile; fileRef = CB64E63532E3BC5BB0A85B86B4DB4125 /* Rexxar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BCE006D541B6CEA2F7B74036CA7E8E8 /* Rexxar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E8837A553785171B1900680D52497 /* Rexxar-dummy.m */; };
+		4D26203EA261B6D86926F39CC22EB4F6 /* RXRNavTitleWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F94A575411C9BD153730DA00D0C3E22 /* RXRNavTitleWidget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52F75198DC24B82837583CB72F146E70 /* RXRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC4E3FBDBF489B1A07C26FC84D4F0F4 /* RXRViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56F0554DBC3A3E0D25BD1D15DB238897 /* RXRLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9491652D9007879DEA75A60103D2AA /* RXRLogging.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57E6596066899C9CAE09ADDD679C015A /* RXRConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E5477AEF5C13F3FF4BFC51AA27183C /* RXRConfig.m */; };
+		5AA08EDCA0241AF3032D9C148EF5E47A /* RXRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EF24DFD37F7FC41B2124F828C0AED5 /* RXRModel.m */; };
+		706702640AA6DC8E34748EC620DBAAB4 /* NSData+RXRDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4D65C60E17288C05ADE12ACF2FCC72 /* NSData+RXRDigest.m */; };
+		73030AA24599360C84EFCE5407550B9D /* Pods-HybridDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EC748B7EF337A9116EBF93B4D3DE01 /* Pods-HybridDemo-dummy.m */; };
+		783F991BED4ECAAAE93352EA1905EFF8 /* RXRRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E6E9C8DF156897D16B61C996E53065 /* RXRRoute.m */; };
+		787D7488E9217676F284A713CF859428 /* RXRAlertDialogData.h in Headers */ = {isa = PBXBuildFile; fileRef = A92F9EE8C41F34EA22CCA59233D88ECB /* RXRAlertDialogData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79A70F29A8153DA1B1590E4A65AE0F6D /* RXRPullRefreshWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DB8D71DD03798186AEBDA62DF9D1A3 /* RXRPullRefreshWidget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		803284FAD453073C127C7ABAE37F50DE /* RXRRouteFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F82FB2CA24325A72CA5BFCDFEF43150C /* RXRRouteFileCache.m */; };
+		83272547AB64E22D9326D22048E32503 /* RXRRouteFileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FCA2A82ED218A2D3DCDF7A1B1E005130 /* RXRRouteFileCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84ABE1FF6CB0ECCCAB14BF867323E283 /* NSDictionary+RXRMultipleItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 919A7A0C3BAF72E036E76DF8E415CC4A /* NSDictionary+RXRMultipleItems.m */; };
+		869DA51E92A9B6CA87F5BD4A519C01E2 /* RXRModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 784BC1DFBF3B35B25AA8F9120D1E09DE /* RXRModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92523D6FA9E1D069B9EC0D80D7A6BC18 /* NSData+RXRDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = B346794F18B9D00150C234F1563AC878 /* NSData+RXRDigest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		933B6B71B43A815DFDF3E703782CDF93 /* RXRWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E15D39E2DA97FABD65F3CB5A6976E67 /* RXRWidget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BAAB7FF97FC7803CDD7D37D9BFFB1DC /* RXRViewController+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0EC0AF51571BFE056D6B8D55A3BF5C /* RXRViewController+Router.m */; };
+		A85C4BDB999CA33D9C95BED4ED60C426 /* RXRAlertDialogData.m in Sources */ = {isa = PBXBuildFile; fileRef = AE87C10BAFFD7DE95D64E36B1D3E4857 /* RXRAlertDialogData.m */; };
+		AFA1B4A72FC498356E8AFC073681014D /* RXRContainerInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD6F2E5B20E2A0BE7151950FE66E3AC /* RXRContainerInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1A87E995086F4E56FCA413368ADB107 /* RXRRequestDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52641CCC032448F8E588D654B3FE5385 /* RXRRequestDecorator.m */; };
+		B4F4B9CAE974DB5D52586D16F447FDA6 /* NSMutableDictionary+RXRMultipleItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 3866AEB9F691CD87D671EAF89C8EF1A2 /* NSMutableDictionary+RXRMultipleItems.m */; };
+		BA2BC4AA04B0716B7C637C735BA4322A /* RXRCacheFileInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 23112112EEFC8F353021C6DDD13F33B2 /* RXRCacheFileInterceptor.m */; };
+		C57AF129B1E487A9327B0EFE438D29AA /* NSURL+Rexxar.h in Headers */ = {isa = PBXBuildFile; fileRef = D12144B711FCD76650950ABBD335ABEE /* NSURL+Rexxar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C70F6DC580ED6C8AA537F2BB08FB2723 /* NSMutableDictionary+RXRMultipleItems.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE661427DDD674B49E421C96D9F0108 /* NSMutableDictionary+RXRMultipleItems.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C97D49910CBB9921FC507D60C7A8E3EE /* UIColor+Rexxar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB374789949796915AD81647A5F7995 /* UIColor+Rexxar.m */; };
+		CB9B5B66FCA7DEEB7F43CDE4AE3C54CF /* NSDictionary+RXRMultipleItems.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E31F9B661161C19955859861E15BE2 /* NSDictionary+RXRMultipleItems.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8FA3EF4FBFB5808BFB229915A271B0D /* NSString+RXRURLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = A551058018FC0B9643A38872F735A82E /* NSString+RXRURLEscape.m */; };
+		E3F7731B2A5068BB0BB78E557517B94A /* RXRContainerAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F3792AA044B5BADE79B7A8167695052F /* RXRContainerAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F442FFBE2453FB32898D10C59AD272E5 /* NSURL+Rexxar.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CA94D91D4AA1E871C06F5671D1EB01 /* NSURL+Rexxar.m */; };
+		FF48A10F749E155A71472769ECA46E32 /* RXRDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = F98F581E77ABD09E15003D7A48BDB15A /* RXRDecorator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0048510CDDA9F39B55CE82AE96FF0393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54A55935B20C77F192D2E10F25B3862;
+			remoteInfo = Rexxar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D5FA05DA5A3CF686CAE3E5F84CCCF4 /* RXRCacheFileInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRCacheFileInterceptor.h; path = Rexxar/Core/RXRCacheFileInterceptor.h; sourceTree = "<group>"; };
+		0901FE63E7B6CAEA63DD9EA17C6B0018 /* RXRAlertDialogWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRAlertDialogWidget.m; path = Rexxar/Widget/RXRAlertDialogWidget.m; sourceTree = "<group>"; };
+		0A02EBF37480A559C096CADC0CCA0D13 /* RXRAlertDialogWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRAlertDialogWidget.h; path = Rexxar/Widget/RXRAlertDialogWidget.h; sourceTree = "<group>"; };
+		0E8E8837A553785171B1900680D52497 /* Rexxar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rexxar-dummy.m"; sourceTree = "<group>"; };
+		11F39B9448597A118DAB4F2800F72E42 /* RXRRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRRoute.h; path = Rexxar/Core/RXRRoute.h; sourceTree = "<group>"; };
+		17E31F9B661161C19955859861E15BE2 /* NSDictionary+RXRMultipleItems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RXRMultipleItems.h"; path = "Rexxar/Core/Extension/NSDictionary+RXRMultipleItems.h"; sourceTree = "<group>"; };
+		1D4399B5E2FC8FD51E5EEDA13817BC93 /* RXRPullRefreshWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRPullRefreshWidget.m; path = Rexxar/Widget/RXRPullRefreshWidget.m; sourceTree = "<group>"; };
+		1E5A8E4CCC24327F8DDB2997CAE13E99 /* RXRRequestInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRRequestInterceptor.h; path = Rexxar/Decorator/RXRRequestInterceptor.h; sourceTree = "<group>"; };
+		1FD6F2E5B20E2A0BE7151950FE66E3AC /* RXRContainerInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRContainerInterceptor.h; path = Rexxar/ContainerAPI/RXRContainerInterceptor.h; sourceTree = "<group>"; };
+		23112112EEFC8F353021C6DDD13F33B2 /* RXRCacheFileInterceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRCacheFileInterceptor.m; path = Rexxar/Core/RXRCacheFileInterceptor.m; sourceTree = "<group>"; };
+		2BEC7F41A09AE099075A763544B123D7 /* Pods-HybridDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HybridDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F94A575411C9BD153730DA00D0C3E22 /* RXRNavTitleWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRNavTitleWidget.h; path = Rexxar/Widget/RXRNavTitleWidget.h; sourceTree = "<group>"; };
+		30155F2339B1A2F7F531773957326E69 /* Rexxar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rexxar-prefix.pch"; sourceTree = "<group>"; };
+		33E5477AEF5C13F3FF4BFC51AA27183C /* RXRConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRConfig.m; path = Rexxar/Core/RXRConfig.m; sourceTree = "<group>"; };
+		3866AEB9F691CD87D671EAF89C8EF1A2 /* NSMutableDictionary+RXRMultipleItems.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+RXRMultipleItems.m"; path = "Rexxar/Core/Extension/NSMutableDictionary+RXRMultipleItems.m"; sourceTree = "<group>"; };
+		407013F2AAE47301528FCC2A67610865 /* NSString+RXRURLEscape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RXRURLEscape.h"; path = "Rexxar/Core/Extension/NSString+RXRURLEscape.h"; sourceTree = "<group>"; };
+		51EB57C2DB5779D4605DD5BD8E1E286D /* RXRNavTitleWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRNavTitleWidget.m; path = Rexxar/Widget/RXRNavTitleWidget.m; sourceTree = "<group>"; };
+		52641CCC032448F8E588D654B3FE5385 /* RXRRequestDecorator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRRequestDecorator.m; path = Rexxar/Decorator/RXRRequestDecorator.m; sourceTree = "<group>"; };
+		57F31E62CD5917CB32668E74DCB2E1CF /* RXRRequestInterceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRRequestInterceptor.m; path = Rexxar/Decorator/RXRRequestInterceptor.m; sourceTree = "<group>"; };
+		5983492A5390D9421601DAC457C232CA /* RXRNSURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRNSURLProtocol.h; path = Rexxar/Core/RXRNSURLProtocol.h; sourceTree = "<group>"; };
+		5ACF550D32D7CCD7B886266EB53D4265 /* Pods-HybridDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HybridDemo-resources.sh"; sourceTree = "<group>"; };
+		6E15D39E2DA97FABD65F3CB5A6976E67 /* RXRWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRWidget.h; path = Rexxar/Core/RXRWidget.h; sourceTree = "<group>"; };
+		784BC1DFBF3B35B25AA8F9120D1E09DE /* RXRModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRModel.h; path = Rexxar/Widget/Model/RXRModel.h; sourceTree = "<group>"; };
+		79086647AD6F5F0A732B747465AFB7AC /* RXRRouteManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRRouteManager.h; path = Rexxar/Core/RXRRouteManager.h; sourceTree = "<group>"; };
+		7D0EC0AF51571BFE056D6B8D55A3BF5C /* RXRViewController+Router.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RXRViewController+Router.m"; path = "Rexxar/Core/RXRViewController+Router.m"; sourceTree = "<group>"; };
+		7D5D192B2A667F2D8727F96200C9F206 /* RXRRequestDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRRequestDecorator.h; path = Rexxar/Decorator/RXRRequestDecorator.h; sourceTree = "<group>"; };
+		82CA94D91D4AA1E871C06F5671D1EB01 /* NSURL+Rexxar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Rexxar.m"; path = "Rexxar/Core/Extension/NSURL+Rexxar.m"; sourceTree = "<group>"; };
+		82FD8691DBCF67F1A009B63D172D70DB /* libPods-HybridDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HybridDemo.a"; path = "libPods-HybridDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB374789949796915AD81647A5F7995 /* UIColor+Rexxar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Rexxar.m"; path = "Rexxar/Core/Extension/UIColor+Rexxar.m"; sourceTree = "<group>"; };
+		919A7A0C3BAF72E036E76DF8E415CC4A /* NSDictionary+RXRMultipleItems.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RXRMultipleItems.m"; path = "Rexxar/Core/Extension/NSDictionary+RXRMultipleItems.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EC748B7EF337A9116EBF93B4D3DE01 /* Pods-HybridDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HybridDemo-dummy.m"; sourceTree = "<group>"; };
+		A35A3EDE6F5486CC78DAABECB0B92DA4 /* Pods-HybridDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HybridDemo-frameworks.sh"; sourceTree = "<group>"; };
+		A551058018FC0B9643A38872F735A82E /* NSString+RXRURLEscape.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+RXRURLEscape.m"; path = "Rexxar/Core/Extension/NSString+RXRURLEscape.m"; sourceTree = "<group>"; };
+		A56715941111A2D52072FC42C00FD8DE /* Pods-HybridDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HybridDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A92F9EE8C41F34EA22CCA59233D88ECB /* RXRAlertDialogData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRAlertDialogData.h; path = Rexxar/Widget/Model/RXRAlertDialogData.h; sourceTree = "<group>"; };
+		AE87C10BAFFD7DE95D64E36B1D3E4857 /* RXRAlertDialogData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRAlertDialogData.m; path = Rexxar/Widget/Model/RXRAlertDialogData.m; sourceTree = "<group>"; };
+		AEC4E3FBDBF489B1A07C26FC84D4F0F4 /* RXRViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRViewController.h; path = Rexxar/Core/RXRViewController.h; sourceTree = "<group>"; };
+		AFE661427DDD674B49E421C96D9F0108 /* NSMutableDictionary+RXRMultipleItems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+RXRMultipleItems.h"; path = "Rexxar/Core/Extension/NSMutableDictionary+RXRMultipleItems.h"; sourceTree = "<group>"; };
+		B31F8227067245BDBC6EC6B7877D5F00 /* Rexxar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rexxar.xcconfig; sourceTree = "<group>"; };
+		B346794F18B9D00150C234F1563AC878 /* NSData+RXRDigest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+RXRDigest.h"; path = "Rexxar/Core/Extension/NSData+RXRDigest.h"; sourceTree = "<group>"; };
+		B3E58956742DFD353D12FC68612A1A23 /* RXRContainerInterceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRContainerInterceptor.m; path = Rexxar/ContainerAPI/RXRContainerInterceptor.m; sourceTree = "<group>"; };
+		B6DB8D71DD03798186AEBDA62DF9D1A3 /* RXRPullRefreshWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRPullRefreshWidget.h; path = Rexxar/Widget/RXRPullRefreshWidget.h; sourceTree = "<group>"; };
+		BC4D65C60E17288C05ADE12ACF2FCC72 /* NSData+RXRDigest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+RXRDigest.m"; path = "Rexxar/Core/Extension/NSData+RXRDigest.m"; sourceTree = "<group>"; };
+		BD9491652D9007879DEA75A60103D2AA /* RXRLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRLogging.h; path = Rexxar/Core/RXRLogging.h; sourceTree = "<group>"; };
+		BE3991A6D2B88773986D8F62996FE49C /* RXRNSURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRNSURLProtocol.m; path = Rexxar/Core/RXRNSURLProtocol.m; sourceTree = "<group>"; };
+		C0359A6C7015F6E70D8F691CD81B5F14 /* libRexxar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRexxar.a; path = libRexxar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EF24DFD37F7FC41B2124F828C0AED5 /* RXRModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRModel.m; path = Rexxar/Widget/Model/RXRModel.m; sourceTree = "<group>"; };
+		C4FD14F2A98D49F8BFCBDEFA07A8B052 /* RXRViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRViewController.m; path = Rexxar/Core/RXRViewController.m; sourceTree = "<group>"; };
+		C5CD5BD910AB10E6880B8B50C9C39CCE /* Pods-HybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CB64E63532E3BC5BB0A85B86B4DB4125 /* Rexxar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Rexxar.h; path = Rexxar/Rexxar.h; sourceTree = "<group>"; };
+		CEE55F5F00BC28629B145E73C1DFDBB5 /* RXRRouteManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRRouteManager.m; path = Rexxar/Core/RXRRouteManager.m; sourceTree = "<group>"; };
+		D12144B711FCD76650950ABBD335ABEE /* NSURL+Rexxar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Rexxar.h"; path = "Rexxar/Core/Extension/NSURL+Rexxar.h"; sourceTree = "<group>"; };
+		DCAEA99194724795139F86573A70BD90 /* UIColor+Rexxar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Rexxar.h"; path = "Rexxar/Core/Extension/UIColor+Rexxar.h"; sourceTree = "<group>"; };
+		DCCFB5B8894CEEA9D14C7EF963BF6897 /* Pods-HybridDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HybridDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E36366B7AC04C950E03D5398A72011E7 /* RXRConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRConfig.h; path = Rexxar/Core/RXRConfig.h; sourceTree = "<group>"; };
+		F3792AA044B5BADE79B7A8167695052F /* RXRContainerAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRContainerAPI.h; path = Rexxar/ContainerAPI/RXRContainerAPI.h; sourceTree = "<group>"; };
+		F7E6E9C8DF156897D16B61C996E53065 /* RXRRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRRoute.m; path = Rexxar/Core/RXRRoute.m; sourceTree = "<group>"; };
+		F82FB2CA24325A72CA5BFCDFEF43150C /* RXRRouteFileCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXRRouteFileCache.m; path = Rexxar/Core/RXRRouteFileCache.m; sourceTree = "<group>"; };
+		F98F581E77ABD09E15003D7A48BDB15A /* RXRDecorator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRDecorator.h; path = Rexxar/Decorator/RXRDecorator.h; sourceTree = "<group>"; };
+		FCA2A82ED218A2D3DCDF7A1B1E005130 /* RXRRouteFileCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXRRouteFileCache.h; path = Rexxar/Core/RXRRouteFileCache.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8419973C2FE575CE564A0F9300CB87CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4589C581B83D2E0F9D04F76C2EABB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214B46E5291E753ECE998E108DB2BA03 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456C71F9846D05DFF6060C803DE47D7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B49101FE7BA2076D97D2A5131C8B8E23 /* Pods-HybridDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4CF980F2CE9C50C5154D372FD5EFC1C0 /* Rexxar */ = {
+			isa = PBXGroup;
+			children = (
+				B346794F18B9D00150C234F1563AC878 /* NSData+RXRDigest.h */,
+				BC4D65C60E17288C05ADE12ACF2FCC72 /* NSData+RXRDigest.m */,
+				17E31F9B661161C19955859861E15BE2 /* NSDictionary+RXRMultipleItems.h */,
+				919A7A0C3BAF72E036E76DF8E415CC4A /* NSDictionary+RXRMultipleItems.m */,
+				AFE661427DDD674B49E421C96D9F0108 /* NSMutableDictionary+RXRMultipleItems.h */,
+				3866AEB9F691CD87D671EAF89C8EF1A2 /* NSMutableDictionary+RXRMultipleItems.m */,
+				407013F2AAE47301528FCC2A67610865 /* NSString+RXRURLEscape.h */,
+				A551058018FC0B9643A38872F735A82E /* NSString+RXRURLEscape.m */,
+				D12144B711FCD76650950ABBD335ABEE /* NSURL+Rexxar.h */,
+				82CA94D91D4AA1E871C06F5671D1EB01 /* NSURL+Rexxar.m */,
+				CB64E63532E3BC5BB0A85B86B4DB4125 /* Rexxar.h */,
+				A92F9EE8C41F34EA22CCA59233D88ECB /* RXRAlertDialogData.h */,
+				AE87C10BAFFD7DE95D64E36B1D3E4857 /* RXRAlertDialogData.m */,
+				0A02EBF37480A559C096CADC0CCA0D13 /* RXRAlertDialogWidget.h */,
+				0901FE63E7B6CAEA63DD9EA17C6B0018 /* RXRAlertDialogWidget.m */,
+				08D5FA05DA5A3CF686CAE3E5F84CCCF4 /* RXRCacheFileInterceptor.h */,
+				23112112EEFC8F353021C6DDD13F33B2 /* RXRCacheFileInterceptor.m */,
+				E36366B7AC04C950E03D5398A72011E7 /* RXRConfig.h */,
+				33E5477AEF5C13F3FF4BFC51AA27183C /* RXRConfig.m */,
+				F3792AA044B5BADE79B7A8167695052F /* RXRContainerAPI.h */,
+				1FD6F2E5B20E2A0BE7151950FE66E3AC /* RXRContainerInterceptor.h */,
+				B3E58956742DFD353D12FC68612A1A23 /* RXRContainerInterceptor.m */,
+				F98F581E77ABD09E15003D7A48BDB15A /* RXRDecorator.h */,
+				BD9491652D9007879DEA75A60103D2AA /* RXRLogging.h */,
+				784BC1DFBF3B35B25AA8F9120D1E09DE /* RXRModel.h */,
+				C1EF24DFD37F7FC41B2124F828C0AED5 /* RXRModel.m */,
+				2F94A575411C9BD153730DA00D0C3E22 /* RXRNavTitleWidget.h */,
+				51EB57C2DB5779D4605DD5BD8E1E286D /* RXRNavTitleWidget.m */,
+				5983492A5390D9421601DAC457C232CA /* RXRNSURLProtocol.h */,
+				BE3991A6D2B88773986D8F62996FE49C /* RXRNSURLProtocol.m */,
+				B6DB8D71DD03798186AEBDA62DF9D1A3 /* RXRPullRefreshWidget.h */,
+				1D4399B5E2FC8FD51E5EEDA13817BC93 /* RXRPullRefreshWidget.m */,
+				7D5D192B2A667F2D8727F96200C9F206 /* RXRRequestDecorator.h */,
+				52641CCC032448F8E588D654B3FE5385 /* RXRRequestDecorator.m */,
+				1E5A8E4CCC24327F8DDB2997CAE13E99 /* RXRRequestInterceptor.h */,
+				57F31E62CD5917CB32668E74DCB2E1CF /* RXRRequestInterceptor.m */,
+				11F39B9448597A118DAB4F2800F72E42 /* RXRRoute.h */,
+				F7E6E9C8DF156897D16B61C996E53065 /* RXRRoute.m */,
+				FCA2A82ED218A2D3DCDF7A1B1E005130 /* RXRRouteFileCache.h */,
+				F82FB2CA24325A72CA5BFCDFEF43150C /* RXRRouteFileCache.m */,
+				79086647AD6F5F0A732B747465AFB7AC /* RXRRouteManager.h */,
+				CEE55F5F00BC28629B145E73C1DFDBB5 /* RXRRouteManager.m */,
+				AEC4E3FBDBF489B1A07C26FC84D4F0F4 /* RXRViewController.h */,
+				C4FD14F2A98D49F8BFCBDEFA07A8B052 /* RXRViewController.m */,
+				7D0EC0AF51571BFE056D6B8D55A3BF5C /* RXRViewController+Router.m */,
+				6E15D39E2DA97FABD65F3CB5A6976E67 /* RXRWidget.h */,
+				DCAEA99194724795139F86573A70BD90 /* UIColor+Rexxar.h */,
+				8BB374789949796915AD81647A5F7995 /* UIColor+Rexxar.m */,
+				6B1D517268FBF2D8DA65FD61106C48FD /* Core */,
+				62F24164E1A42ADD36471CD248E9DCCB /* Support Files */,
+				A2F914B89221C63A73CB16C87EFA0E8A /* Widget */,
+			);
+			name = Rexxar;
+			path = Rexxar;
+			sourceTree = "<group>";
+		};
+		62F24164E1A42ADD36471CD248E9DCCB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31F8227067245BDBC6EC6B7877D5F00 /* Rexxar.xcconfig */,
+				0E8E8837A553785171B1900680D52497 /* Rexxar-dummy.m */,
+				30155F2339B1A2F7F531773957326E69 /* Rexxar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Rexxar";
+			sourceTree = "<group>";
+		};
+		6B1D517268FBF2D8DA65FD61106C48FD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7C94383A1C076CD3026C43AA40BA4AAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CF980F2CE9C50C5154D372FD5EFC1C0 /* Rexxar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7C94383A1C076CD3026C43AA40BA4AAF /* Pods */,
+				BC6B4B0C18A807E700889656733F0FB4 /* Products */,
+				456C71F9846D05DFF6060C803DE47D7F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F914B89221C63A73CB16C87EFA0E8A /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		B49101FE7BA2076D97D2A5131C8B8E23 /* Pods-HybridDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2BEC7F41A09AE099075A763544B123D7 /* Pods-HybridDemo-acknowledgements.markdown */,
+				DCCFB5B8894CEEA9D14C7EF963BF6897 /* Pods-HybridDemo-acknowledgements.plist */,
+				95EC748B7EF337A9116EBF93B4D3DE01 /* Pods-HybridDemo-dummy.m */,
+				A35A3EDE6F5486CC78DAABECB0B92DA4 /* Pods-HybridDemo-frameworks.sh */,
+				5ACF550D32D7CCD7B886266EB53D4265 /* Pods-HybridDemo-resources.sh */,
+				C5CD5BD910AB10E6880B8B50C9C39CCE /* Pods-HybridDemo.debug.xcconfig */,
+				A56715941111A2D52072FC42C00FD8DE /* Pods-HybridDemo.release.xcconfig */,
+			);
+			name = "Pods-HybridDemo";
+			path = "Target Support Files/Pods-HybridDemo";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6B4B0C18A807E700889656733F0FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FD8691DBCF67F1A009B63D172D70DB /* libPods-HybridDemo.a */,
+				C0359A6C7015F6E70D8F691CD81B5F14 /* libRexxar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BCC6F047F2E34E8FC6FE9C7563FA1A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9AAF48EE2D94ECBF724C4C9D154CA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92523D6FA9E1D069B9EC0D80D7A6BC18 /* NSData+RXRDigest.h in Headers */,
+				CB9B5B66FCA7DEEB7F43CDE4AE3C54CF /* NSDictionary+RXRMultipleItems.h in Headers */,
+				C70F6DC580ED6C8AA537F2BB08FB2723 /* NSMutableDictionary+RXRMultipleItems.h in Headers */,
+				3F002BB8476239DAD3F6B304BBD03BFA /* NSString+RXRURLEscape.h in Headers */,
+				C57AF129B1E487A9327B0EFE438D29AA /* NSURL+Rexxar.h in Headers */,
+				44D2CF18469CDF6A56EDB9BF377E5149 /* Rexxar.h in Headers */,
+				787D7488E9217676F284A713CF859428 /* RXRAlertDialogData.h in Headers */,
+				2ECCC96C86003B7F2C754477DEFB9DE8 /* RXRAlertDialogWidget.h in Headers */,
+				2EBADCA37FCA995EF8C7B72AD65EB93D /* RXRCacheFileInterceptor.h in Headers */,
+				01955A3D534F906129040D8F805597F8 /* RXRConfig.h in Headers */,
+				E3F7731B2A5068BB0BB78E557517B94A /* RXRContainerAPI.h in Headers */,
+				AFA1B4A72FC498356E8AFC073681014D /* RXRContainerInterceptor.h in Headers */,
+				FF48A10F749E155A71472769ECA46E32 /* RXRDecorator.h in Headers */,
+				56F0554DBC3A3E0D25BD1D15DB238897 /* RXRLogging.h in Headers */,
+				869DA51E92A9B6CA87F5BD4A519C01E2 /* RXRModel.h in Headers */,
+				4D26203EA261B6D86926F39CC22EB4F6 /* RXRNavTitleWidget.h in Headers */,
+				0E1AF952E791E5952AE8FBE4A899B42C /* RXRNSURLProtocol.h in Headers */,
+				79A70F29A8153DA1B1590E4A65AE0F6D /* RXRPullRefreshWidget.h in Headers */,
+				3E7B095B4412DFD2193B1E93F6D08DF0 /* RXRRequestDecorator.h in Headers */,
+				24C17DAE28A606BB099F268223D78A3B /* RXRRequestInterceptor.h in Headers */,
+				168F1D75AA95505CEA7151C15FC4D2DD /* RXRRoute.h in Headers */,
+				83272547AB64E22D9326D22048E32503 /* RXRRouteFileCache.h in Headers */,
+				076AD8C5E3E56D79F5F63AAF16584E08 /* RXRRouteManager.h in Headers */,
+				52F75198DC24B82837583CB72F146E70 /* RXRViewController.h in Headers */,
+				933B6B71B43A815DFDF3E703782CDF93 /* RXRWidget.h in Headers */,
+				2D15CC98D7040ADDDE1D69A5D7EC426A /* UIColor+Rexxar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D039C3EF715F0208ED3D4C28E4CB3D0B /* Pods-HybridDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6152C9C472C1C8AD5121FB68C9732FF0 /* Build configuration list for PBXNativeTarget "Pods-HybridDemo" */;
+			buildPhases = (
+				3BCC6F047F2E34E8FC6FE9C7563FA1A5 /* Headers */,
+				A1043819148155FC7EC3DB6C12622627 /* Sources */,
+				8419973C2FE575CE564A0F9300CB87CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B1290DE5D17DD36410D2F4BA16FC944 /* PBXTargetDependency */,
+			);
+			name = "Pods-HybridDemo";
+			productName = "Pods-HybridDemo";
+			productReference = 82FD8691DBCF67F1A009B63D172D70DB /* libPods-HybridDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D54A55935B20C77F192D2E10F25B3862 /* Rexxar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9963B67785DFB474AA9B11352D4352AE /* Build configuration list for PBXNativeTarget "Rexxar" */;
+			buildPhases = (
+				4E9AAF48EE2D94ECBF724C4C9D154CA3 /* Headers */,
+				1205A501E4254DAA0FB9414E421DE04D /* Sources */,
+				CF4589C581B83D2E0F9D04F76C2EABB8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rexxar;
+			productName = Rexxar;
+			productReference = C0359A6C7015F6E70D8F691CD81B5F14 /* libRexxar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BC6B4B0C18A807E700889656733F0FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D039C3EF715F0208ED3D4C28E4CB3D0B /* Pods-HybridDemo */,
+				D54A55935B20C77F192D2E10F25B3862 /* Rexxar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1205A501E4254DAA0FB9414E421DE04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706702640AA6DC8E34748EC620DBAAB4 /* NSData+RXRDigest.m in Sources */,
+				84ABE1FF6CB0ECCCAB14BF867323E283 /* NSDictionary+RXRMultipleItems.m in Sources */,
+				B4F4B9CAE974DB5D52586D16F447FDA6 /* NSMutableDictionary+RXRMultipleItems.m in Sources */,
+				D8FA3EF4FBFB5808BFB229915A271B0D /* NSString+RXRURLEscape.m in Sources */,
+				F442FFBE2453FB32898D10C59AD272E5 /* NSURL+Rexxar.m in Sources */,
+				4BCE006D541B6CEA2F7B74036CA7E8E8 /* Rexxar-dummy.m in Sources */,
+				A85C4BDB999CA33D9C95BED4ED60C426 /* RXRAlertDialogData.m in Sources */,
+				3B873939E06BD0C6A74B118C48E770AB /* RXRAlertDialogWidget.m in Sources */,
+				BA2BC4AA04B0716B7C637C735BA4322A /* RXRCacheFileInterceptor.m in Sources */,
+				57E6596066899C9CAE09ADDD679C015A /* RXRConfig.m in Sources */,
+				3416ABE7EE87DC7C7BAD779974401DE6 /* RXRContainerInterceptor.m in Sources */,
+				5AA08EDCA0241AF3032D9C148EF5E47A /* RXRModel.m in Sources */,
+				14B4C9CAA1D3519514D4646D7E46C1A5 /* RXRNavTitleWidget.m in Sources */,
+				10891F9C44D30E7A3189A3B63B5DB370 /* RXRNSURLProtocol.m in Sources */,
+				0E887E7B1CD64E31A643EB7A11185B74 /* RXRPullRefreshWidget.m in Sources */,
+				B1A87E995086F4E56FCA413368ADB107 /* RXRRequestDecorator.m in Sources */,
+				0C1379B7529ED900A1C31D8F7E6B8B98 /* RXRRequestInterceptor.m in Sources */,
+				783F991BED4ECAAAE93352EA1905EFF8 /* RXRRoute.m in Sources */,
+				803284FAD453073C127C7ABAE37F50DE /* RXRRouteFileCache.m in Sources */,
+				2AF218D3FCE50676950443AB591DCB50 /* RXRRouteManager.m in Sources */,
+				9BAAB7FF97FC7803CDD7D37D9BFFB1DC /* RXRViewController+Router.m in Sources */,
+				284B0A26744EDE3114A25C5EE07408F7 /* RXRViewController.m in Sources */,
+				C97D49910CBB9921FC507D60C7A8E3EE /* UIColor+Rexxar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1043819148155FC7EC3DB6C12622627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73030AA24599360C84EFCE5407550B9D /* Pods-HybridDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B1290DE5D17DD36410D2F4BA16FC944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Rexxar;
+			target = D54A55935B20C77F192D2E10F25B3862 /* Rexxar */;
+			targetProxy = 0048510CDDA9F39B55CE82AE96FF0393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007F1066051A467FBEB0038594E9D7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		08D4B97E36CEFAB7D2A28B2CFCD895FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F8227067245BDBC6EC6B7877D5F00 /* Rexxar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Rexxar/Rexxar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Rexxar;
+				PRODUCT_NAME = Rexxar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E8BAA2F5D9AA07D0B6F774F22F214B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56715941111A2D52072FC42C00FD8DE /* Pods-HybridDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32469B826323D591DF156A855DE22004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31F8227067245BDBC6EC6B7877D5F00 /* Rexxar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Rexxar/Rexxar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Rexxar;
+				PRODUCT_NAME = Rexxar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E7D25009A7CA027B573D2A5E0F0E969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CD5BD910AB10E6880B8B50C9C39CCE /* Pods-HybridDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E246FC26AF4A9832D7AA01080188D618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E246FC26AF4A9832D7AA01080188D618 /* Debug */,
+				007F1066051A467FBEB0038594E9D7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6152C9C472C1C8AD5121FB68C9732FF0 /* Build configuration list for PBXNativeTarget "Pods-HybridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E7D25009A7CA027B573D2A5E0F0E969 /* Debug */,
+				0E8BAA2F5D9AA07D0B6F774F22F214B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9963B67785DFB474AA9B11352D4352AE /* Build configuration list for PBXNativeTarget "Rexxar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D4B97E36CEFAB7D2A28B2CFCD895FE /* Debug */,
+				32469B826323D591DF156A855DE22004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

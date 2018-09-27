@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE5DE181CA40BC1A825437A7 /* libPods-HybridDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 062BB11F02AA94F89E6C7A6B /* libPods-HybridDemo.a */; };
 		E51725F9215CB90E008431A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E51725F8215CB90E008431A1 /* AppDelegate.m */; };
 		E51725FC215CB90E008431A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E51725FB215CB90E008431A1 /* ViewController.m */; };
 		E51725FF215CB90E008431A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51725FD215CB90E008431A1 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		062BB11F02AA94F89E6C7A6B /* libPods-HybridDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HybridDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C718028D3DB5E79CDB84B4 /* Pods-HybridDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HybridDemo/Pods-HybridDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E51725F4215CB90E008431A1 /* HybridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51725F7215CB90E008431A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E51725F8215CB90E008431A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		E5172605215CB910008431A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5172606215CB910008431A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E517260E215CB9AB008431A1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FCB03C66C7EAEFE716E606EC /* Pods-HybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HybridDemo/Pods-HybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E517260F215CB9AB008431A1 /* WebKit.framework in Frameworks */,
+				BE5DE181CA40BC1A825437A7 /* libPods-HybridDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +53,7 @@
 				E51725F6215CB90E008431A1 /* HybridDemo */,
 				E51725F5215CB90E008431A1 /* Products */,
 				E517260D215CB9AB008431A1 /* Frameworks */,
+				F0E534573435F77D0603A558 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,8 +85,18 @@
 			isa = PBXGroup;
 			children = (
 				E517260E215CB9AB008431A1 /* WebKit.framework */,
+				062BB11F02AA94F89E6C7A6B /* libPods-HybridDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E534573435F77D0603A558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCB03C66C7EAEFE716E606EC /* Pods-HybridDemo.debug.xcconfig */,
+				68C718028D3DB5E79CDB84B4 /* Pods-HybridDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +106,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E517260A215CB910008431A1 /* Build configuration list for PBXNativeTarget "HybridDemo" */;
 			buildPhases = (
+				D2B7F42E0F689CD1234D3F78 /* [CP] Check Pods Manifest.lock */,
 				E51725F0215CB90E008431A1 /* Sources */,
 				E51725F1215CB90E008431A1 /* Frameworks */,
 				E51725F2215CB90E008431A1 /* Resources */,
@@ -147,6 +164,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2B7F42E0F689CD1234D3F78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HybridDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E51725F0215CB90E008431A1 /* Sources */ = {
@@ -293,6 +335,7 @@
 		};
 		E517260B215CB910008431A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB03C66C7EAEFE716E606EC /* Pods-HybridDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -312,6 +355,7 @@
 		};
 		E517260C215CB910008431A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C718028D3DB5E79CDB84B4 /* Pods-HybridDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
